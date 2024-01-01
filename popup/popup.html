@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <title>Twitter Sensitive Media</title>
+    <link rel="stylesheet" href="/style/primer.css" />
+    <script src="popup.js"></script>
+  </head>
+  <body>
+    <div class="my-5 mx-5">
+      <div>
+        <h1>Settings</h1>
+      </div>
+      <div
+        class="d-flex d-flex-column flex-justify-between flex-items-start"
+      >
+        <div class="container-lg">
+          <form id="settingsForm">
+            <div class="form-group">
+              <label class="mb-1" for="blacklistedWords">Blacklisted Words:</label>
+              <input
+                type="text"
+                id="blacklistedWords"
+                class="form-control"
+                placeholder="Enter blacklisted words"
+              />
+            </div>
+
+            <div class="form-group">
+              <label class="mb-1" for="clarifaiAccessToken">Clarifai Access Token:</label>
+              <input
+                type="text"
+                id="clarifaiAccessToken"
+                class="form-control"
+                placeholder="Enter access token"
+              />
+            </div>
+
+            <div class="form-group">
+              <label class="mb-1" for="clarifaiUserId">Clarifai User ID:</label>
+              <input
+                type="text"
+                id="clarifaiUserId"
+                class="form-control"
+                placeholder="Enter user ID"
+              />
+            </div>
+
+            <div class="form-group">
+              <label class="mb-1" for="clarifaiAppId">Clarifai App ID:</label>
+              <input
+                type="text"
+                id="clarifaiAppId"
+                class="form-control"
+                placeholder="Enter app ID"
+              />
+            </div>
+          </form>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
