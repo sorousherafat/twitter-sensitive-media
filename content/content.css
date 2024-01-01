@@ -1,0 +1,5 @@
+img { transition: filter 1s linear; }
+
+.blur {
+  filter: blur(10px);
+}
