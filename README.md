@@ -29,6 +29,6 @@ Now any images in your Twitter feed that are assumed to contain an object from t
 
 ## TODO
 
-[ ] Add support for videos.
-[ ] Add support for different API providers.
-[ ] Add support for in-browser object detection models.
+- [ ] Add support for videos.
+- [ ] Add support for different API providers.
+- [ ] Add support for in-browser object detection models.
